@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a:hover{
+	text-decoration: none;
+	background: white;
+}
+img{
+	max-width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.52);
+    font-size: 18px;
+    padding: 0px 15px;
+    font-weight: 700;
+}
+.navbar {
+    margin-top: 40px;
+}
+.navbar img{
+
+}
+
+.carousel-indicators li {
+	box-sizing: content-box;
+	-ms-flex: 0 1 auto;
+	flex: 0 1 auto;
+    background: #ddd;
+    border-radius: 3px;
+    width: 20px;
+    height: 13px;
+    border: 0 !important;
+    padding: 0 !important;
+
+    }
+
+    .carousel-indicators .active {
+  width: 35px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb21b+0,ffaf22+0,ffca10+100 */
+background: rgb(255,178,27); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,178,27,1) 0%, rgba(255,175,34,1) 0%, rgba(255,202,16,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,178,27,1) 0%,rgba(255,175,34,1) 0%,rgba(255,202,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,178,27,1) 0%,rgba(255,175,34,1) 0%,rgba(255,202,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb21b', endColorstr='#ffca10',GradientType=1 ); /* IE6-9 */
+
+
+}
+
+.carousel-item{
+
+}
+.carousel-item h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+.carousel-item p{
+	font-size: 20px;
+    opacity: .7;
+    color: #333;
+}
+.btn-dark{
+	background: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-dark:hover {
+    color: #fff;
+    background-color: #ecb91f;
+    border-color: #ecb91f;
+}
+}
+.btn-dark img{
+	background: #fff;
+}
+.featured-product{
+
+padding: 95px 0 50px;
+}
+.featured-product ul{
+
+margin-bottom: 25px;
+}
+.featured-product li{}
+.featured-product ul li a{
+
+color: #ffb31f;
+
+text-decoration: none;
+
+font-size: 18px;
+
+font-weight: 600;
+}
+.featured-product ul li h1{
+	
+font-size: 26px;
+	
+font-weight: 700;
+}
+.product{
+
+box-shadow: 0 20px 50px rgba(0, 0, 0, 0.05);
+
+padding: 40px 20px;
+
+text-align: center;
+
+border-radius: 12px;
+}
+.product a{
+	
+}
+.product a img{
+	
+}
+.product a h1{
+	
+color: #333;
+	
+text-decoration: none;
+	
+font-size: 26px;
+	
+font-weight: 600;
+	
+margin-top: 30px;
+}
+.product  p{
+	
+font-size: 13px;
+	
+color: #00000073;
+}
+.product h2{
+	
+font-size: 30px;
+	
+font-weight: 600;
+	
+color: #00000085;
+}
+.product .btn{
+	
+}
+
+.categories-section{
+
+}
+.categories-section h1{
+
+font-size: 45px;
+
+font-weight: 600;
+
+margin-bottom: 16px;
+}
+.categories-section span{
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb21b+0,ffaf22+0,ffca10+100 */
+
+width: 74px;
+
+ /* Old browsers */
+
+height: 14px;
+
+display: block;
+
+margin: auto;
+
+border-radius: 30px;
+
+margin-bottom: 50px;
+
+background: -moz-linear-gradient(left,  rgba(255,178,27,1) 0%, rgba(255,175,34,1) 0%, rgba(255,202,16,1) 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(left,  rgba(255,178,27,1) 0%,rgba(255,175,34,1) 0%,rgba(255,202,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to right,  rgba(255,178,27,1) 0%,rgba(255,175,34,1) 0%,rgba(255,202,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb21b', endColorstr='#ffca10',GradientType=1 ); /* IE6-9 */
+}
+.categories-section a{
+
+display: block;
+
+box-shadow: 0 0px 30px rgba(0, 0, 0, 0.09);
+
+text-align: center;
+
+padding: 30px 20px;
+
+margin-bottom: 30px;
+
+border-top-left-radius: 30px;
+
+border-bottom-right-radius: 30px;
+}
+.categories-section a img{
+
+}
+.categories-section a h3{
+
+font-size: 26px;
+
+color: #333;
+
+font-weight: 600;
+
+margin-top: 20px;
+}
+.categories-section img{
+
+}
